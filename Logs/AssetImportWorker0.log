@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/christopher/Documents/ApplicationAR
+C:/Users/christopher/Documents/GitHub/ApplicationAR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53531
-Successfully changed project path to: C:/Users/christopher/Documents/ApplicationAR
-C:/Users/christopher/Documents/ApplicationAR
+57162
+Successfully changed project path to: C:/Users/christopher/Documents/GitHub/ApplicationAR
+C:/Users/christopher/Documents/GitHub/ApplicationAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/christopher/Documents/ApplicationAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 149.71 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 154.05 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/christopher/Documents/ApplicationAR/Assets
+[Subsystems] Discovering subsystems at path C:/Users/christopher/Documents/GitHub/ApplicationAR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,78 +63,80 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013310 seconds.
+Registered in 0.009044 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.20 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 122.43 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.880 seconds
+- Completed reload, in  0.817 seconds
 Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (601ms)
-			LoadAssemblies (192ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (211ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (360ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
+				RefreshPlugins (122ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.044161 seconds.
+Registered in 0.039745 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\christopher\Documents\GitHub\ApplicationAR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\christopher\Documents\GitHub\ApplicationAR\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 130.00 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 107.28 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.577 seconds
+- Completed reload, in  1.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1578ms)
-		BeginReloadAssembly (272ms)
+	ReloadAssembly (1553ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1177ms)
-			LoadAssemblies (286ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1180ms)
+			LoadAssemblies (253ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
+			SetupTypeCache (339ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (623ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (594ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -142,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4117 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (114.9 KB). Loaded Objects now: 4569.
+Unloading 4118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (114.9 KB). Loaded Objects now: 4570.
 Memory consumption went from 151.1 MB to 151.0 MB.
-Total: 3.324100 ms (FindLiveObjects: 0.397700 ms CreateObjectMapping: 0.254100 ms MarkObjects: 2.533700 ms  DeleteObjects: 0.136400 ms)
+Total: 3.469800 ms (FindLiveObjects: 0.398800 ms CreateObjectMapping: 0.262200 ms MarkObjects: 2.669900 ms  DeleteObjects: 0.136900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,88 +164,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10795.425796 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Prefabs
-  artifactKey: Guid(f86660937c11b604792ad62321de94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Prefabs using Guid(f86660937c11b604792ad62321de94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95707ace0dc3b7616c3edeb8aa5c54b6') in 0.022466 seconds 
+  Time since last request: 8629.446213 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(00574ff7f3025a741a03d5b4d5c199d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(00574ff7f3025a741a03d5b4d5c199d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b83fb2a4eea416aa04647fad5bb12') in 0.011523 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.049067 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Prefabs/CircleNeuroTag.prefab
-  artifactKey: Guid(5a03d815513271a479ed2cd541302527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Prefabs/CircleNeuroTag.prefab using Guid(5a03d815513271a479ed2cd541302527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c32a27bd9ec788e53eee2a7962fb5b8') in 0.082228 seconds 
+  Time since last request: 659.407181 seconds.
+  path: Assets/images
+  artifactKey: Guid(ac41422016a02084c8a91c02128efdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images using Guid(ac41422016a02084c8a91c02128efdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5c5d66b26c401654411cc11c695e07') in 0.005451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051725 seconds.
+  path: Assets/images/logoGroupeAccsys.png
+  artifactKey: Guid(0da76187cbb41654897a8d2b417b79dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/logoGroupeAccsys.png using Guid(0da76187cbb41654897a8d2b417b79dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f459b9ff78b5ba3ca277a4da1262bbd') in 0.139642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.900457 seconds.
+  path: Assets/NextMindSDK/Examples/Common Resources/Sprites/NEXTMIND_Icon.png
+  artifactKey: Guid(3bfc8350f9c872b4f9623662b48924e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NextMindSDK/Examples/Common Resources/Sprites/NEXTMIND_Icon.png using Guid(3bfc8350f9c872b4f9623662b48924e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99283a077fc6ace6cbe0544ae61f70e') in 0.050313 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Prefabs/VideoPlayerGroup.prefab
-  artifactKey: Guid(b69a6adead6b924418e956fa17728948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Prefabs/VideoPlayerGroup.prefab using Guid(b69a6adead6b924418e956fa17728948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60df4f038ebef935c219494c34a2091') in 0.019989 seconds 
+  path: Assets/NextMindSDK/Examples/Calibration/Textures/PairingInstructions/NMDevice-Pairing-dark-03.png
+  artifactKey: Guid(ae3c7ae8cfc74478e88cd4ad58140db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NextMindSDK/Examples/Calibration/Textures/PairingInstructions/NMDevice-Pairing-dark-03.png using Guid(ae3c7ae8cfc74478e88cd4ad58140db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b097bb50c0921ba6b38465d62883123') in 0.038383 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.025299 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Textures/CaptureGuide.png
-  artifactKey: Guid(ea608844413e2eb4ebdea7709799e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Textures/CaptureGuide.png using Guid(ea608844413e2eb4ebdea7709799e44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdfc10011a37d8384ae89897b715d8e') in 0.138334 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/NextMindSDK/Examples/Calibration/Textures/PairingInstructions/plus-button.png
+  artifactKey: Guid(a562e01c8e116d34eb698ff33d8656ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NextMindSDK/Examples/Calibration/Textures/PairingInstructions/plus-button.png using Guid(a562e01c8e116d34eb698ff33d8656ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a150c876d6e08a6537eb5db4dfd0f370') in 0.020286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/NextMindSDK/Examples/Calibration/Textures/PairingInstructions/NMDevice-Pairing-dark-05.png
+  artifactKey: Guid(f4e9582c6a32b2746bad3691c2b06a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NextMindSDK/Examples/Calibration/Textures/PairingInstructions/NMDevice-Pairing-dark-05.png using Guid(f4e9582c6a32b2746bad3691c2b06a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04882117aa3788fd3a8748ed79bee49f') in 0.033647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.299101 seconds.
+  path: Assets/NextMindSDK/Examples/SDKDiscovery/Textures/Toggle/Shadow.png
+  artifactKey: Guid(1916fba70f369824399b0833a0dc4f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NextMindSDK/Examples/SDKDiscovery/Textures/Toggle/Shadow.png using Guid(1916fba70f369824399b0833a0dc4f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd24e62925e9741b4ebda3a54067b63c') in 0.034425 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Textures/Play.png
-  artifactKey: Guid(9be3c6ee4f0598e44bbf73acd830a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Textures/Play.png using Guid(9be3c6ee4f0598e44bbf73acd830a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bf0f8f843817019376ac1b042a0d39') in 0.022894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Textures/NeuroTag_Flash.png
-  artifactKey: Guid(0876914d1ce4d4e41bdbd8c2d4a6aba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Textures/NeuroTag_Flash.png using Guid(0876914d1ce4d4e41bdbd8c2d4a6aba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea13cb1a5a4ded259516e7c6d31a93c') in 0.022362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Textures/Pause.png
-  artifactKey: Guid(f2f92ff4f6b8f9c4f824e2bb4e6013dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Textures/Pause.png using Guid(f2f92ff4f6b8f9c4f824e2bb4e6013dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46db10ca7e83077e31b43e4d9bbd1e59') in 0.022809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Textures/HelpButton.png
-  artifactKey: Guid(b21d33fe3f4cb904381d64755347b0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Textures/HelpButton.png using Guid(b21d33fe3f4cb904381d64755347b0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b69297e2f9ef62c2a9151f1d44e4a7c') in 0.022967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Textures/FeedbackBackground.png
-  artifactKey: Guid(a4b17c2f86291964bad09520c7e98967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Textures/FeedbackBackground.png using Guid(a4b17c2f86291964bad09520c7e98967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b4851974e206d9fd3bca398d51823') in 0.027884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.160062 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Videos/EnhanceCalibGuide.mp4
-  artifactKey: Guid(8c2613da81b292d409d18bf9d31a9e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Videos/EnhanceCalibGuide.mp4 using Guid(8c2613da81b292d409d18bf9d31a9e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8fbd6cf30f93f53d22c6558c7a6e5b') in 0.053481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.755633 seconds.
-  path: Assets/NextMindSDK/Examples/Calibration/Models/brain.fbx
-  artifactKey: Guid(7cbb0c388c62d97498383913f8e1ef76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/Calibration/Models/brain.fbx using Guid(7cbb0c388c62d97498383913f8e1ef76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da775495a8eefa9c3cd7d843d1e5ce9a') in 0.217070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.852331 seconds.
-  path: Assets/NextMindSDK/Examples/NeuroTagGallery/Prefabs/NeuroTagGalleryPanel.prefab
-  artifactKey: Guid(4b8e1f63aa52d1849bb95816d18b1c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/NeuroTagGallery/Prefabs/NeuroTagGalleryPanel.prefab using Guid(4b8e1f63aa52d1849bb95816d18b1c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62bc0e639b6e0cac91f8742d1e76a5d') in 0.021041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.403810 seconds.
-  path: Assets/NextMindSDK/Examples/NeuroTagGallery/Sprites/Glow-SharperRamp.png
-  artifactKey: Guid(b0e1cb9915b28c84e897a0bfdf2695fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/NeuroTagGallery/Sprites/Glow-SharperRamp.png using Guid(b0e1cb9915b28c84e897a0bfdf2695fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79483f293df9b21ca678c31e8882ec4') in 0.035019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/NextMindSDK/Examples/NeuroTagGallery/Sprites/TrianglesCloud.png
-  artifactKey: Guid(713db845b42fd164888d6560b79d8f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NextMindSDK/Examples/NeuroTagGallery/Sprites/TrianglesCloud.png using Guid(713db845b42fd164888d6560b79d8f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28907c687b393443cbb98755ce03c4c') in 0.034550 seconds 
+  path: Assets/NextMindSDK/Core/Runtime/Textures/StimulationTexture_Transparent.png
+  artifactKey: Guid(fb1250c65b2b8624391b8a45182d7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NextMindSDK/Core/Runtime/Textures/StimulationTexture_Transparent.png using Guid(fb1250c65b2b8624391b8a45182d7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f272a17562683dd6b835bfcd52b2eec') in 0.029845 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
