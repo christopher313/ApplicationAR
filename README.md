@@ -9,4 +9,5 @@ Lorsque vous démarrez le projet, il vous sera demandé si vous souhaitez passer
 -------
 TUTO
 
-[FicheHololens2.pdf](https://github.com/christopher313/ApplicationAR/files/8003282/FicheHololens2.pdf)
+
+[FicheHololens2.pdf](https://github.com/christopher313/ApplicationAR/files/8004029/FicheHololens2.pdf)
