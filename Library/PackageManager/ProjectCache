@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637809499377296013
-    m_Hash: 3660562246
+      ticks: 637810320226552167
+    m_Hash: 1442074322
   m_LockFileStatus:
     m_FilePath: C:/Users/User/OneDrive/Documents/GitHub/ApplicationAR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637809500753923838
-    m_Hash: 3520233749
+      ticks: 637810320226722313
+    m_Hash: 1419121351
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -31,7 +31,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637809478005379259
+      ticks: 637810273444707825
     m_Hash: 1401374687
 m_ProjectPath: C:/Users/User/OneDrive/Documents/GitHub/ApplicationAR/Packages
 m_EditorVersion: 2021.2.12f1 (48b1aa000234)
@@ -41,7 +41,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.1
   source: 6
-  resolvedPath: C:\Users\User\OneDrive\Documents\GitHub\ApplicationAR\Library\PackageCache\com.microsoft.mixedreality.openxr@ea71d671386e-1645351000538
+  resolvedPath: C:\Users\User\OneDrive\Documents\GitHub\ApplicationAR\Library\PackageCache\com.microsoft.mixedreality.openxr@ea71d671386e-1645430544471
   assetPath: Packages/com.microsoft.mixedreality.openxr
   name: com.microsoft.mixedreality.openxr
   displayName: Mixed Reality OpenXR Plugin
@@ -128,6 +128,72 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.nextmind.unitysdk@1.5.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.5.1
+  source: 1
+  resolvedPath: C:\Users\User\OneDrive\Documents\GitHub\ApplicationAR\Library\PackageCache\com.nextmind.unitysdk@1.5.1
+  assetPath: Packages/com.nextmind.unitysdk
+  name: com.nextmind.unitysdk
+  displayName: NextMind SDK
+  author:
+    name: NextMind
+    email: support@next-mind.com
+    url: https://www.next-mind.com
+  category: 
+  type: 
+  description: NextMind SDK contains the resources you need to build your first apps
+    leveraging the NextMind technology.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.5.0
+    - 1.5.1
+    compatible:
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.5.0
+    - 1.5.1
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  - sdk
+  - bci
+  - brain
+  - controller
+  - interface
+  - mind
+  registry:
+    id: scoped:NextMind
+    name: NextMind
+    url: https://registry.npmjs.com
+    scopes:
+    - com.nextmind.unitysdk
+    isDefault: 0
+    capabilities: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637804489592730000
+  documentationUrl: https://www.next-mind.com/documentation/unity-sdk/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.15.12
   testable: 0
   isDirectDependency: 1
@@ -181,10 +247,15 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.4
     - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.14.13
     - 1.15.1
     - 1.15.4
     - 1.15.7
+    - 1.15.9
     - 1.15.12
+    - 1.15.13
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -197,6 +268,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.15.12
+    - 1.15.13
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -207,7 +279,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.12
+    verified: 1.15.13
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -239,7 +311,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637789721280000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -384,6 +456,7 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.0.7
     - 3.0.9
+    - 3.0.10
     - 3.0.12
     compatible:
     - 3.0.12
@@ -404,7 +477,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637789697420000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -479,13 +552,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637782923640000000
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: f1e8af5df9e2507088a8622d173c9a7d5a03a882
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
     version: 2.0.14
@@ -524,9 +597,11 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
+    - 1.2.5
     compatible:
     - 1.2.4
-    verified: 1.2.4
+    - 1.2.5
+    verified: 1.2.5
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -602,10 +677,16 @@ m_ResolvedPackages:
     - 1.1.27
     - 1.1.29
     - 1.1.30
+    - 1.1.31
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.1.29
     - 1.1.30
-    verified: 1.1.30
+    - 1.1.31
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    verified: 1.1.31
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -893,11 +974,15 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.6.4
     - 1.7.0-pre.1
+    - 1.7.0-pre.2
     compatible:
     - 1.6.3
+    - 1.6.4
     - 1.7.0-pre.1
-    verified: 1.6.3
+    - 1.7.0-pre.2
+    verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1018,7 +1103,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1035,10 +1120,25 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
     - 1.7.6
+    - 1.7.7
+    - 1.8.0-pre.1
     compatible:
     - 1.7.6
-    verified: 1.7.6
+    - 1.7.7
+    verified: 1.7.7
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1063,7 +1163,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637722460580000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1122,6 +1222,7 @@ m_ResolvedPackages:
     - 2.1.14
     - 2.1.16
     - 2.1.18
+    - 2.1.19
     - 2.2.0-preview.2
     - 2.2.0-preview.3
     - 2.2.0-preview.6
@@ -1163,6 +1264,7 @@ m_ResolvedPackages:
     - 4.1.3
     - 4.1.5
     - 4.1.7
+    - 4.1.9
     - 4.2.0-pre.2
     - 4.2.0-pre.3
     - 4.2.0-pre.4
@@ -1177,10 +1279,14 @@ m_ResolvedPackages:
     - 4.2.2
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
     compatible:
     - 4.2.2
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
     verified: 4.2.2
   dependencies:
   - name: com.unity.xr.arsubsystems
@@ -1228,7 +1334,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637771448650000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3145,9 +3251,11 @@ m_ResolvedPackages:
     - 4.1.0-pre.2
     - 4.1.0
     - 4.2.0
+    - 4.2.1
     compatible:
     - 4.2.0
-    verified: 4.2.0
+    - 4.2.1
+    verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -3383,7 +3491,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637769972190000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3425,6 +3533,7 @@ m_ResolvedPackages:
     - 2.1.14
     - 2.1.16
     - 2.1.18
+    - 2.1.19
     - 2.2.0-preview.2
     - 2.2.0-preview.3
     - 2.2.0-preview.6
@@ -3466,6 +3575,7 @@ m_ResolvedPackages:
     - 4.1.3
     - 4.1.5
     - 4.1.7
+    - 4.1.9
     - 4.2.0-pre.2
     - 4.2.0-pre.3
     - 4.2.0-pre.4
@@ -3480,10 +3590,14 @@ m_ResolvedPackages:
     - 4.2.2
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
     compatible:
     - 4.2.2
     - 5.0.0-pre.5
     - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
     verified: 4.2.2
   dependencies:
   - name: com.unity.subsystemregistration
@@ -3520,7 +3634,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637771447780000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3558,8 +3672,10 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.5
     - 1.0.6
+    - 2.0.2
     compatible:
     - 1.0.6
+    - 2.0.2
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -3836,6 +3952,7 @@ m_ResolvedPackages:
     - 1.1.0-pre.10
     - 1.1.0-pre.11
     - 1.1.0-pre.41
+    - 1.1.0-pre.69
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
@@ -3844,6 +3961,7 @@ m_ResolvedPackages:
     - 1.1.0-pre.10
     - 1.1.0-pre.11
     - 1.1.0-pre.41
+    - 1.1.0-pre.69
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest
